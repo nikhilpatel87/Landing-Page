@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+}
+
+.navbar {
+	background-color: #145374;
+	display: flex;
+	color: #f6f5f5;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+#logo {
+	align-items: left;
+	color: #ee6f57;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	padding-left: 20px;
+}
+
+#navlinks {
+	align-items: right;
+	display: flex;
+	gap: 30px;
+	line-height: 7px;
+	padding-right: 20px;
+}
+
+#about {
+	background-color: #145374;
+	display: flex;
+	justify-content: space-between;
+	color: #f6f5f5;
+	padding: 6em 3em;
+}
+
+#left-about {
+	max-width: 50%;
+}
+
+#hero-text {
+	color: #ee6f57;
+}
+
+#statement {
+	font-style: italic;
+	font-size: 18px;
+}
+#main-image {
+	max-width: 50%;
+}
+img {
+	max-height: 250px;
+	max-width: 500px;
+}
+
+.signup {
+	background-color: #f6f5f5;
+	color: #ee6f57;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+	margin: 4px 2px;
+	border-radius: 5px;
+}
+
+#coins {
+	display: flex;
+	justify-content: space-between;
+}
+
+#fav-coins {
+	margin: 25px;
+}
+
+#alt-header {
+	text-align: center;
+	color: #145374;
+}
+
+.alt-coin {
+	width: 200px;
+	padding: 5px;
+}
+
+.coin-image {
+	height: 200px;
+	width: 200px;
+	border: 5px solid #ee6f57;
+}
+
+.alt-coin p {
+	text-align: center;
+}
+
+#quote {
+	background-color: #145374;
+	color: #f6f5f5;
+	padding: 5em 10em;
+}
+
+#cursive {
+	font-size: 48px;
+	font-family: 'Waterfall', cursive;
+}
+
+#strong {
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#action {
+	padding: 8em 6em;
+}
+
+#calltoaction {
+	padding: 3em 5em;
+	background-color: #ee6f57;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	color: white;
+}
+
+footer {
+	background-color: #145374;
+	color: white;
+	text-align: center;
+	padding: 2em 8em;
+}
